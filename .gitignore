@@ -1,3 +1,12 @@
 .venv/
 __pycache__/
 *.pyc
+*.bin
+*.safetensors
+*.onnx
+modified_transformer/src_transformers_snapshot/*
+!modified_transformer/src_transformers_snapshot/t4_kernels.py
+!modified_transformer/src_transformers_snapshot/modeling_utils.py
+!modified_transformer/src_transformers_snapshot/modeling_flash_attention_utils.py
+!modified_transformer/src_transformers_snapshot/modeling_layers.py
+!modified_transformer/src_transformers_snapshot/modeling_rope_utils.py
